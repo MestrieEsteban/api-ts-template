@@ -11,13 +11,13 @@ export const argv: string[] = process.argv.slice(2)
 const api = Router()
 
 api.get('/', (req: Request, res: Response) => {
--	res.json({
-		hello: ' Api',
-		meta: {
-			status: 'running',
-			version: '1.0.0',
-		},
-	})
+  ;-res.json({
+    hello: ' Api',
+    meta: {
+      status: 'running',
+      version: '1.0.0',
+    },
+  })
 })
 
 //Auth
