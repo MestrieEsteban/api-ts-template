@@ -28,7 +28,7 @@ export default class Database {
     const founded = (process.env.DATABASE_URL as string).match(/^(postgres):\/\/(.*):(.*)@(.*):(\d+)\/(.*)$/)
 
     if (!founded) {
-      throw new Error('[ERROR] kPlease chec your DATABASE_URL value')
+      throw new Error('[ERROR] Please check your DATABASE_URL value')
     }
 
     const [, , username, password, host, port, database] = founded

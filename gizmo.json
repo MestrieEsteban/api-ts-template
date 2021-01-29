@@ -1,8 +1,8 @@
 {
 	"make:model":{
 		"required": ["Name"],
-		"template":"./api-ts-template/templates/mytemplate.map",
-		"path":"/api-ts-template/src/core/models/",
+		"template":"./templates/mytemplate.gizmo",
+		"path":"./src/core/models/",
 		"type":"ts"
 	}
 }
