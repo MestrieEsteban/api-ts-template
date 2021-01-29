@@ -1,8 +1,10 @@
 import { Router } from 'express'
-import users from './routes.users'
+import UserController from '../../../controllers/UserController'
 
 const api = Router()
 
-api.use('/users', users)
+api.get('/user/:uuid', UserController.getUser)
+api.put('/user/:uuid', UserController.updateUser)
+api.delete('/user/:uuid', UserController.deleteUser)
 
 export default api
