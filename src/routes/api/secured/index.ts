@@ -8,6 +8,4 @@ api.get('/user/:uuid', UserController.getUser)
 api.put('/user/:uuid', UserController.updateUser)
 api.delete('/user/:uuid', UserController.deleteUser)
 
-
-
 export default api
