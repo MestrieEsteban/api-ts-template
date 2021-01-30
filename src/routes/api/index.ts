@@ -4,20 +4,20 @@
 import { Router, Request, Response } from 'express'
 import secured from './secured/index'
 import passport from 'passport'
-import AuthController from '../../controllers/AuthController'
+import AuthController from '@/controllers/AuthController'
 
 export const argv: string[] = process.argv.slice(2)
 
 const api = Router()
 
 api.get('/', (req: Request, res: Response) => {
-  ;-res.json({
-    hello: ' Api',
-    meta: {
-      status: 'running',
-      version: '1.0.0',
-    },
-  })
+	res.json({
+		hello: ' Gizmo Api',
+		meta: {
+			status: 'running',
+			version: '1.0.0',
+		},
+	})
 })
 
 //Auth

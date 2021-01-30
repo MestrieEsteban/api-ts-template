@@ -19,7 +19,10 @@
       ],
       "@/routes/*": [
         "routes/*"
-      ]
+	  ],
+	  "@/controllers/*":[
+		  "controllers/*"
+	  ]
     }
   },
   "include": [
