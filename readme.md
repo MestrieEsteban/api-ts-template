@@ -31,4 +31,10 @@ This template is fully customizable but with a basic configuration to quickly ge
  - For routes add them in ~ /src/routes/api
 	 If your routes are in the secured folder, a token will have to be sent to access the route
 	 otherwise the API return "unauthorized"
-
+## Roadmap
+- [x] API Sécurisation (passport, jwt)
+- [x] Add Controllers
+- [ ]  Create a good documentation and implement a swagger
+- [ ] Cors and Express 
+- [ ] Unit tests
+- [ ] Continuous integration with Gizmo CLI
