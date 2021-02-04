@@ -1,8 +1,8 @@
 
 # Gizmo Api 
-Gizmo Api is a template or little framework allows to quickly launch an API 
-Gizmo is based on a system of routes, controllers and model
- This template is fully customizable but with a basic configuration to quickly get started in the construction of the API.
+Gizmo Api is a template or little framework allows to quickly launch an API.
+Gizmo is based on a system of routes, controllers and model.
+This template is fully customizable but with a basic configuration to quickly get started in the construction of the API.
 
 ## Requirements
 
