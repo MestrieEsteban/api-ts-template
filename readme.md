@@ -9,7 +9,7 @@ This template is fully customizable but with a basic configuration to quickly ge
 - Node.js 🐭 (A Deno version is in preparation)
 
 ### Useful (Not compulsory but useful)
-- Gizmo CLI
+- Gizmo CLI `npm i -g @maclow_/gizmo`
 - Docker
 ## Installation instructions
 ### Without Gizmo CLI
