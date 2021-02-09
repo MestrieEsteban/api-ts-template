@@ -6,7 +6,7 @@ This template is fully customizable but with a basic configuration to quickly ge
 
 ## Requirements
 
-- Node.js 🐭 (A Deno version is in preparation)
+- Node.js 🐭
 
 ### Useful (Not compulsory but useful)
 - Gizmo CLI `npm i -g @maclow_/gizmo`
